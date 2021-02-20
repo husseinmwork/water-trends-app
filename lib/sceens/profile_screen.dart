@@ -81,7 +81,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               width: double.infinity,
               child: CustomPaint(
                 size: Size(400.0,
-                    500.0), //You can Replace this with your desired WIDTH and HEIGHT
+                    500.0), //You can Replace this with your desiered WIDTH and HEIGHT
                 painter: isLandScape
                     ? LRPSCustomPainter(context: context)
                     : RPSCustomPainter(context: context),
