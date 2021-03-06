@@ -186,6 +186,7 @@ class SignUp extends StatelessWidget {
                           width: 20,
                         ),
                         Radio(
+
                           activeColor: Colors.black,
                           value: true,
                           groupValue: true,
@@ -208,15 +209,15 @@ class SignUp extends StatelessWidget {
                       child: Container(
                         alignment: Alignment.center,
                         padding: EdgeInsets.only(top: 5, bottom: 5),
-                        margin: EdgeInsets.only(left: 20, right: 200),
+                        margin: EdgeInsets.only(left: 20, right: 200 ),
                         decoration: BoxDecoration(
-                          color: Colors.blue,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(30),
                         ),
                         child: Text(
                           "التالي",
                           style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontFamily: 'Tajawal',
                             fontSize: 18,
                           ),
@@ -268,13 +269,13 @@ class SignUp extends StatelessWidget {
                       padding: EdgeInsets.only(top: 5, bottom: 5),
                       margin: EdgeInsets.only(left: 30, right: 230),
                       decoration: BoxDecoration(
-                        color: Colors.blue,
+                        color: Colors.white,
                         borderRadius: BorderRadius.circular(30),
                       ),
                       child: Text(
                         "دخول",
                         style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.black,
                           fontFamily: 'Tajawal',
                           fontSize: 18,
                         ),
@@ -323,7 +324,7 @@ class XRPSCustomPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     Paint paint_0 = new Paint()
-      ..color = Colors.grey[400]
+      ..color =  Colors.blue
       ..style = PaintingStyle.fill
       ..strokeWidth = 1.0;
 
@@ -354,7 +355,7 @@ class RPSCustomPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     Paint paint_0 = new Paint()
-      ..color = Colors.grey[400]
+      ..color = Colors.blue
       ..style = PaintingStyle.fill
       ..strokeWidth = 1.0;
 
@@ -379,7 +380,7 @@ class CRPSCustomPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     Paint paint_0 = new Paint()
-      ..color = Colors.grey[400]
+      ..color = Colors.blue
       ..style = PaintingStyle.fill
       ..strokeWidth = 1.0;
 

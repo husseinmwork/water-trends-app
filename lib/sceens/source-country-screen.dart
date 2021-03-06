@@ -155,7 +155,7 @@ class _SourceCountryState extends State<SourceCountry> {
     String subtitle,
   ) {
     return Container(
-      margin: EdgeInsets.only(left: 20, right: 20 , bottom: 10),
+      margin: EdgeInsets.only(left: 5, right: 5 , bottom: 10),
       width: double.infinity,
       height: 110,
       decoration: BoxDecoration(

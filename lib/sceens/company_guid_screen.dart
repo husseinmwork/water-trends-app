@@ -92,7 +92,7 @@ class _CompanyGuideScreenState extends State<CompanyGuideScreen> {
               },
               child: Container(
                 padding: EdgeInsets.all(8),
-                margin: EdgeInsets.only(left: 100, right: 100),
+                margin: EdgeInsets.only(left: 70, right: 70),
                 decoration: BoxDecoration(
                   color: Colors.blue,
                   borderRadius: BorderRadius.circular(20),

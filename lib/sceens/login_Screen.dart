@@ -77,14 +77,16 @@ class _LoginState extends State<Login> {
               children: [
                 Container(
                   height: 40,
+
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(60),
                   ),
                   padding: EdgeInsets.all(4),
-                  margin: EdgeInsets.symmetric(vertical: 30, horizontal: 150),
+                  margin: EdgeInsets.symmetric(vertical: 20, horizontal: 150),
                   child: Image.asset(
                     "assets/images/edit2.png",
+
                   ),
                 ),
                 Container(
@@ -95,7 +97,7 @@ class _LoginState extends State<Login> {
                   child: Text(
                     "تسجيل الدخول",
                     style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
                         fontFamily: 'Tajawal'),
@@ -103,7 +105,7 @@ class _LoginState extends State<Login> {
                   ),
                 ),
                 SizedBox(
-                  height: 15,
+                  height: 30,
                 ),
                 Container(
                   height: 420,
@@ -122,7 +124,7 @@ class _LoginState extends State<Login> {
                           Text(
                             "البريد",
                             style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.grey[900],
                               fontFamily: 'Tajawal',
                               fontSize: 18,
                             ),
@@ -133,7 +135,7 @@ class _LoginState extends State<Login> {
                           ),
                           Icon(
                             Icons.mail,
-                            color: Colors.white,
+                            color: Colors.grey,
                           ),
                         ],
                       ),
@@ -145,13 +147,13 @@ class _LoginState extends State<Login> {
                             contentPadding: EdgeInsets.all(5),
                             hintText: "Info@aseed.com",
                             hintStyle:
-                                TextStyle(color: Colors.white, fontSize: 20),
+                                TextStyle(color: Colors.grey[600], fontSize: 20),
                             border: InputBorder.none,
                           ),
                         ),
                       ),
                       Divider(
-                        color: Colors.white,
+                        color: Colors.grey[600],
                         height: 0,
                         thickness: 1.0,
                         endIndent: 50,
@@ -166,7 +168,7 @@ class _LoginState extends State<Login> {
                           Text(
                             "الرقم السري",
                             style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.grey[900],
                               fontFamily: 'Tajawal',
                               fontSize: 18,
                             ),
@@ -178,7 +180,7 @@ class _LoginState extends State<Login> {
                           Image(
                             height: 25,
                             width: 25,
-                            color: Colors.white,
+                            color: Colors.grey,
                             image: Svg("assets/icons/padlock.svg"),
                           ),
                         ],
@@ -191,13 +193,13 @@ class _LoginState extends State<Login> {
                             contentPadding: EdgeInsets.all(5),
                             hintText: "**********",
                             hintStyle:
-                                TextStyle(color: Colors.white, fontSize: 20),
+                                TextStyle(color: Colors.grey[600], fontSize: 20),
                             border: InputBorder.none,
                           ),
                         ),
                       ),
                       Divider(
-                        color: Colors.white,
+                        color: Colors.grey[600],
                         height: 0,
                         thickness: 1.0,
                         endIndent: 50,
@@ -213,7 +215,7 @@ class _LoginState extends State<Login> {
                         child: Text(
                           "نسيت الرقم السري؟",
                           style: TextStyle(
-                            color: Colors.grey[300],
+                            color: Colors.grey[900],
                             fontFamily: 'Tajawal',
                             fontSize: 18,
                             fontWeight: FontWeight.w400,
@@ -221,7 +223,7 @@ class _LoginState extends State<Login> {
                         ),
                       ),
                       Divider(
-                        color: Colors.grey[300],
+                        color: Colors.grey[600],
                         height: 0,
                         thickness: 1.0,
                         indent: 130,
@@ -236,13 +238,13 @@ class _LoginState extends State<Login> {
                         ),
                         margin: EdgeInsets.only(left: 100, right: 100),
                         decoration: BoxDecoration(
-                          color: Colors.white,
+                          color: Colors.blue,
                           borderRadius: BorderRadius.circular(30),
                         ),
                         child: Text(
                           "الدخول",
                           style: TextStyle(
-                            color: Colors.black,
+                            color: Colors.white,
                             fontFamily: 'Tajawal',
                             fontSize: 18,
                           ),
@@ -262,7 +264,7 @@ class _LoginState extends State<Login> {
                           child: Text(
                             "تسجيل حساب جديد",
                             style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black,
                               fontFamily: 'Tajawal',
                               fontSize: 18,
                               fontWeight: FontWeight.w500,
@@ -271,7 +273,7 @@ class _LoginState extends State<Login> {
                         ),
                       ),
                       Divider(
-                        color: Colors.grey[300],
+                        color: Colors.grey[600],
                         height: 0,
                         thickness: 1.0,
                         endIndent: 80,
@@ -286,7 +288,7 @@ class _LoginState extends State<Login> {
                   child: Column(
                     children: [
                       SizedBox(
-                        height: 40,
+                        height: 10,
                       ),
                       Container(
                         margin: EdgeInsets.only(top: 40),
@@ -296,7 +298,7 @@ class _LoginState extends State<Login> {
                         child: Text(
                           "الدخول ب",
                           style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontFamily: 'Tajawal',
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
@@ -314,20 +316,20 @@ class _LoginState extends State<Login> {
                             Image(
                               height: 35,
                               width: 35,
-                              color: Colors.white,
+                              color: Colors.blue,
                               image: Svg("assets/icons/facebook.svg"),
                             ),
                             Image(
                               height: 35,
                               width: 35,
-                              color: Colors.white,
+                              color: Colors.blue,
                               image: Svg(
                                   "assets/icons/google-plus-logo-on-black-background.svg"),
                             ),
                             Image(
                               height: 35,
                               width: 35,
-                              color: Colors.white,
+                              color: Colors.blue,
                               image: Svg("assets/icons/twitter.svg"),
                             ),
                           ],
@@ -371,7 +373,7 @@ class RPSCustomPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     Paint paint_0 = new Paint()
-      ..color = Color.fromARGB(255, 33, 150, 243)
+      ..color = Color(0xFFFFFFFE)
       ..style = PaintingStyle.fill
       ..strokeWidth = 1.0;
 
@@ -396,7 +398,7 @@ class RRRPSCustomPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     Paint paint_0 = new Paint()
-      ..color = Color.fromARGB(255, 33, 150, 243)
+      ..color =  Color(0xFFFFFFFE)
       ..style = PaintingStyle.fill
       ..strokeWidth = 1.0;
 
@@ -420,7 +422,7 @@ class CRPSCustomPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     Paint paint_0 = new Paint()
-      ..color = Color.fromARGB(255, 33, 150, 243)
+      ..color = Color(0xFFFFFFFE)
       ..style = PaintingStyle.fill
       ..strokeWidth = 1.0;
 

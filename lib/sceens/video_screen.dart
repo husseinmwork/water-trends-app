@@ -40,7 +40,7 @@ class _VideoScreenState extends State<VideoScreen> {
           child: Column(
             children: [
               Container(
-                height: 350,
+              padding: EdgeInsets.only(bottom: 10),
                 width: double.infinity,
                 margin:
                     EdgeInsets.only(top: 10, left: 20, right: 20, bottom: 10),
@@ -80,7 +80,7 @@ class _VideoScreenState extends State<VideoScreen> {
                       child: Text(
                         "بلفيديو شاهد اخر مراحل خطوات تحلية مياه الامطار وجعلها صالحة للشرب",
                         style: TextStyle(
-                          fontSize: 22,
+                          fontSize: 18,
                           fontWeight: FontWeight.w600,
                           color: Colors.black,
                         ),

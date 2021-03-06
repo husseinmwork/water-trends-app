@@ -171,7 +171,7 @@ class NotificationsScreen extends StatelessWidget {
     return Container(
       width: double.infinity,
       padding: EdgeInsets.all(20),
-      margin: EdgeInsets.only(left: 20, right: 20),
+
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
